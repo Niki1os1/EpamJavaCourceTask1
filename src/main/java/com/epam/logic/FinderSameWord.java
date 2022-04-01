@@ -43,25 +43,7 @@ public class FinderSameWord {
         return new HashSet<>(sentence.getContent());
     }
 
-    //    public void startNew(Sentence sentence){
-//        List<Map<String, Integer>> maps = new ArrayList<>();
-//        Map<String, Integer> map = new HashMap<>();
-//        int i = 0;
-//        Word word = sentence.getElement(i);
-//        for(String str : word.getElement(i).getContent()){
-//            word = sentence.getElement(i);
-//
-//        }
-//
-//        for(String str : sentence.getContent()){
-//            map.put(str, 1);
-//            maps.add(map);
-//        }
-//        for(int i = 0; i < maps.size(); i++){
-//
-//        }
-//    }
-    public void start(Sentence sentence) {
+        public void start(Sentence sentence) {
         int n = sentence.size();
         boolean[] arr = new boolean[n];
         List<List<Word>> selections = new ArrayList<>();

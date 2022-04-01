@@ -53,7 +53,6 @@ public class TextParser {
         Matcher matcher = patternWord.matcher(sentence);
         while (matcher.find()) {
             w = matcher.group(1);
-            System.out.println(w);
             word = new LeafSentence(w);
             wordList.addElement(word);
         }
